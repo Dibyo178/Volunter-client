@@ -16,18 +16,18 @@ const Header = () => {
                         <li className="nav-item active">
                             <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/donation">Donation</a>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" href="/events">Events</a>
+                            <a className="nav-link" href="/volunteer">Events</a>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/blog">Blog</a>
-                        </li>
+                        </li> */}
                     </ul>
-                    <Link to="/login"> <button type="button" className="btn btn-primary mr-3">Register</button></Link>
-                    <Link to="/admin"><button type="button" className="btn btn-dark">Admin</button></Link>
+                     {/* <button type="button" className="btn btn-primary mr-3">Register</button> */}
+                    <Link to="/admin"><button type="button" className="btn btn-primary">Admin</button></Link>
                 </div>
             </nav>
 

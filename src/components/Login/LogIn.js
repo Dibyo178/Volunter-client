@@ -46,7 +46,7 @@ const LogIn = () => {
         <div className="my-5">
           <h3>Login With</h3>
           <button className="google-button my-3" onClick={handleGoogleSignIn}>Continue with Google</button>
-          <p>Don't have account?<span className="commonColor">Create a account</span></p>
+          {/* <p>Don't have account?<span className="commonColor">Create a account</span></p> */}
         </div>
       </Card>
     </div>

@@ -1,11 +1,11 @@
-.google-button {
+ .google-button {
     background-image: url(https://i.ibb.co/jWsmmMJ/google.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: contain;
-    /* border: none; */
-    cursor: pointer;
+     /* border: none;  */
+     cursor: pointer;
     height: 38px;
     padding-left: 40px;
     vertical-align: middle;
@@ -28,4 +28,5 @@
     margin: 0 auto;
     margin-top: 50px;
     text-align: center;
-}
+}   
+
