@@ -35,9 +35,9 @@ function App() {
             <Volunteer />
           </Route>
           <Route path="/volunteer">
-          <Volunteer />
+          <Volunteer/>
           </Route>
-          <Route path="/admin">
+          <Route exact path="/admin">
             <Admin />
           </Route>
           <PrivateRoute path="/register/:registerId">

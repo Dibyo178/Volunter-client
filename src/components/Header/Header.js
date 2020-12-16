@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
+
 const Header = () => {
+    
     return (
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -20,7 +22,7 @@ const Header = () => {
                             <a className="nav-link" href="/donation">Donation</a>
                         </li> */}
                         <li className="nav-item">
-                            <a className="nav-link" href="/volunteer">Events</a>
+                           <Link to="/volunteer"> <a className="nav-link" href="/events">Events</a></Link>
                         </li>
                         {/* <li className="nav-item">
                             <a className="nav-link" href="/blog">Blog</a>
